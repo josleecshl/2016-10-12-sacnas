@@ -11,7 +11,6 @@ humantime: "8:30 am - 5:00 pm"    # human-readable time (e.g., "9:00 am - 4:30 p
 startdate: 2016-10-12      # use YYYY-MM-DD format like 2015-01-01
 enddate: 2016-10-12        # use YYYY-MM-DD format like 2015-01-02
 instructor: ["Joslynn Lee","Camille Avestruz"] # list of names like ["Kay McNulty", "Betty Jennings", "Betty Snyder"]
-helper: ["FIXME"]     # list of names like ["Marlyn Wescoff", "Fran Bilas", "Ruth Lichterman"]
 contact: "jolee@cshl.edu"      # contact email address for workshop organizer, such as "grace@hopper.org"
 etherpad:         # optional (insert the URL for your Etherpad if you're using one)
 eventbrite:       # optional (insert the alphanumeric key for Eventbrite registration, e.g., "1234567890AB")
@@ -55,13 +54,13 @@ day2_pm: "Programming with Python"
   the pitch.
 -->
 <p>
-<a href=http://datacarpentry.org>Data Carpentry</a> workshops are for any researcher 
+<a href=http://software-carpentry.org/>Software Carpentry</a> and <a href=http://datacarpentry.org>Data Carpentry</a> workshops are for any researcher 
 who has data they want to analyze, and no prior computational experience is required. 
 This hands-on workshop teaches basic concepts, skills and tools for working more 
 effectively with data. 
 </p>
 <p>
-We will cover {{page.day1_am}}, {{page.day1_pm}}, {{page.day2_am}} and {{page.day2_pm}}.
+In short form from the traditional workshops, we will cover {{page.day1_am}}, {{page.day1_pm}}, {{page.day2_am}} and {{page.day2_pm}}.
 
 Participants should bring their laptops and plan to participate actively. By the end of the workshop learners should be able to more effectively manage and analyze data and be able to apply the tools and approaches directly to their ongoing research.
 </p>
@@ -74,7 +73,7 @@ Participants should bring their laptops and plan to participate actively. By the
 -->
 <p>
   <strong>Who:</strong>
-  This workshop has a morning and afternoon session. The workshop is aimed at undergraduate, graduate students, faculty and other researchers.
+  This free workshop has a morning and afternoon session. The workshop is aimed at undergraduate, graduate students, faculty and other researchers.
 </p>
 
 <!--
@@ -106,10 +105,31 @@ Participants should bring their laptops and plan to participate actively. By the
   Mac, Linux, or Windows operating sytem (not a tablet, Chromebook, etc.) that they have administrative privileges
   on. They should have a few specific software packages installed (listed
   <a href="#setup">below</a>). They are also required to abide by
-  Data Carpentry's
+  Software and Data Carpentry's
   <a href="{{site.dc_site}}/code-of-conduct/">Code of Conduct</a>.
 </p>
-
+<!--
+  ACCESSIBILITY
+  Modify the block below if there are any barriers to accessibility or
+  special instructions.
+<p id="accessibility">
+  <strong>Accessibility:</strong> We are committed to making this workshop
+  accessible to everybody.
+  The workshop organisers have checked that:
+</p>
+<ul>
+  <li>The room is wheelchair / scooter accessible.</li>
+  <li>Accessible restrooms are available.</li>
+</ul>
+<p>
+  Materials will be provided in advance of the workshop and
+  large-print handouts are available if needed by notifying the
+  organizers in advance.  If we can help making learning easier for
+  you (e.g. sign-language interpreters, lactation facilities) please
+  <a href="mailto:{{page.contact}}">get in touch</a> and we will
+  attempt to provide them.
+</p>
+-->
 <!--
   CONTACT EMAIL ADDRESS
 
@@ -149,16 +169,43 @@ Participants should bring their laptops and plan to participate actively. By the
 
 <div class="row">
   <div class="col-md-6">
-
-    <h3>Wednesday Oct 12</h3>
+    <h3>Wednesday Oct 12 Morning Session</h3>
     <table class="table table-striped">
-      <tr> <td>Morning Session</td>  <td>{{page.day1_am}}</td> </tr>
-      <tr> <td>Afternoon Session 1</td>  <td>{{page.day1_pm}}</td> </tr>
-      <tr> <td>Afternoon Session 2</td>  <td>{{page.day2_pm}}</td> </tr>
+      <tr> <td>08:30</td>  <td>Overview of Agenda and Instructors</td> </tr>
+      <tr> <td>08:40</td>  <td>Introduction to CyVerse Infrastructure</td> </tr>
+      <tr> <td>09:05</td>  <td>Introduction to Software & Data Carpentry and Reproducible Research</td> </tr>
+      <tr> <td>09:20</td>  <td>Computer check for software/downloads</td> </tr>
+      <tr> <td>09:30-11:30</td>  <td><a href="http://swcarpentry.github.io/shell-novice/">The Unix Shell</a></td> </tr>
+      <tr> <td>09:30</td>  <td><a href="http://swcarpentry.github.io/shell-novice/01-intro/">Introducing the Shell</a></td> </tr>
+      <tr> <td>09:35</td>  <td><a href="http://swcarpentry.github.io/shell-novice/02-filedir/">Navigating Files and Directories</a></td> </tr>
+      <tr> <td>09:50</td>  <td><a href="http://swcarpentry.github.io/shell-novice/03-create/">Working with Files and Directories</a></td> </tr>
+      <tr> <td>10:05</td>  <td><a href="http://swcarpentry.github.io/shell-novice/04-pipefilter/">Pipes and Filters</a></td> </tr>
+      <tr> <td>10:30</td>  <td>Break</td> </tr>
+      <tr> <td>10:40</td>  <td><a href="http://swcarpentry.github.io/shell-novice/01-intro/">Loops</a></td> </tr>
+      <tr> <td>10:55</td>  <td><a href="http://swcarpentry.github.io/shell-novice/02-filedir/">Shell Scripts</a></td> </tr>
+      <tr> <td>11:10</td>  <td><a href="http://swcarpentry.github.io/shell-novice/03-create/">Finding Things</a></td> </tr>
+      <tr> <td>11:30-12:00</td>  <td>Wrap-up</td> </tr>
+      <tr> <td>11:30</td>  <td>Large scale computing + CyVerse</td> </tr>
+      <tr> <td>11:50</td>  <td>Questions</td> </tr>
     </table>
  </div>
 </div>
-
+  <div class="col-md-6">
+    <h3>Wednesday October 12 Afternoon Session</h3>
+    <table class="table table-striped">
+      <tr> <td>01:30</td>  <td>Overview of Agenda and Instructors</td> </tr>
+      <tr> <td>01:35</td>  <td>Introduction to CyVerse Infrastructure</td> </tr>
+      <tr> <td>01:40</td>  <td>Introduction to Software & Data Carpentry and Reproducible Research</td> </tr>
+      <tr> <td>01:45</td>  <td>Why I became an instructor?</td> </tr>
+      <tr> <td>01:50</td>  <td>Computer check for software/downloads</td> </tr>
+      <tr> <td>02:00-3:15</td>  <td><a href="http://swcarpentry.github.io/python-novice-inflammation/">Python</a></td> </tr>
+      <tr> <td>03:15</td>  <td>Break</td> </tr>
+      <tr> <td>03:30</td>  <td><a href="http://swcarpentry.github.io/r-novice-inflammation/">R</a></td> </tr>
+      <tr> <td>04:30-5:00</td>  <td>Wrap-up</td> </tr>
+      <tr> <td>04:30</td>  <td>Large scale computing + CyVerse</td> </tr>
+      <tr> <td>04:50</td>  <td>Questions</td> </tr>
+    </table>
+</div>
 <!--
   ETHERPAD
 
@@ -210,14 +257,14 @@ Participants should bring their laptops and plan to participate actively. By the
       <li>Looping over files</li>
       <li>Creating and running shell scripts</li>
       <li>Finding things</li>
-      <li><a href="{{site.swc_lessons}}/ref/01-shell.html">Reference...</a></li>
+      <li><a href="https://swcarpentry.github.io/shell-novice/reference/">Reference...</a></li>
     </ul>
   </div>
   <div class="col-md-6">
     <h3>Programming in Python</h3>
     <ul>
       <li>Analyzing Patient Data</li>
-      <li><a href="{{site.swc_lessons}}/ref/03-python.html">Reference...</a></li>
+      <li><a href="https://swcarpentry.github.io/python-novice-inflammation/reference/">Reference...</a></li>
     </ul>
   </div>
 
@@ -225,7 +272,7 @@ Participants should bring their laptops and plan to participate actively. By the
     <h3>Programming in R</h3>
     <ul>
       <li>Analyzing Patient Data</li>
-      <li><a href="{{site.swc_lessons}}/ref/06-R.html">Reference...</a></li>
+      <li><a href="https://swcarpentry.github.io/r-novice-inflammation/reference/">Reference...</a></li>
     </ul>
   </div>
 
@@ -248,14 +295,19 @@ Participants should bring their laptops and plan to participate actively. By the
 <h2 id="setup">Setup</h2>
 
 <p>
-To participate in a Data Carpentry workshop, you will need working copies of the 
+To participate in a Software and Data Carpentry workshop, you will need working copies of the 
 described software. Please make sure to install everything (or at least to download 
 the installers) before the start of your workshop. Participants should bring and use 
 their own laptops to insure the proper setup of tools for an efficient workflow 
 once you leave the workshop.
 <p>
-Please follow these <a href=install.html>Setup Instructions</a>.
-
+Please follow these Setup Instructions:
+This lesson assumes you have the R, RStudio software installed on your computer.
+R can be <a href="http://https://cran.r-project.org/mirrors.html">downloaded here</a>.
+RStudio is an environment for developing using R. It can be <a href="https://www.rstudio.com/products/rstudio/download/">downloaded here</a>. 
+You will need the Desktop version for your computer.
+  
+Next, follow the instructions for <a href="http://swcarpentry.github.io/python-novice-inflammation/setup/">Python Setup</a>.
 <p>
   We maintain a list of common issues that occur during installation as a reference for instructors
   that may be useful on the
